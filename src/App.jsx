@@ -20,7 +20,7 @@ class App extends React.Component {
     return(
       <div className='App'>
         <h1 id='title'>{this.state.counter}</h1>
-        <button id='click' onClick={() => {this.add()}}>diste click</button>
+        <button id='click' onClick={() => {this.add()}}>Haz Click</button>
       </div>
     )
   }
