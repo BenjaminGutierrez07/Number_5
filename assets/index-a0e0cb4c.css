@@ -1,0 +1,1 @@
+#root{height:90vh;display:flex;justify-content:center;align-items:center}.App{width:500px;height:500px;display:flex;flex-direction:column;justify-content:center;align-items:center;background-color:#3c3ad3;border-radius:70px}#title{font-size:100px}#click{width:300px;height:70px;border-radius:30px;border:none;font-size:30px}#click:hover{background-color:#d42f2f}
