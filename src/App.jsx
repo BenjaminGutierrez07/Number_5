@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import './App.css'
 
 class App extends React.Component { 
 
@@ -18,8 +19,8 @@ class App extends React.Component {
   render() {
     return(
       <div className='App'>
-        <h1>{this.state.counter}</h1>
-        <button onClick={() => {this.add()}}>diste click</button>
+        <h1 id='title'>{this.state.counter}</h1>
+        <button id='click' onClick={() => {this.add()}}>diste click</button>
       </div>
     )
   }
